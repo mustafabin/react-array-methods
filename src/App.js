@@ -26,6 +26,9 @@ function App() {
     case 'some':
       content = <Some flavors={flavors} />;
       break;
+    case 'map':
+      content = <Map flavors={flavors} />;
+      break;
     default:
       content = <Map flavors={flavors} />;
   }
