@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Chocolate Chip Cookie Dough",
+    "base": "Vanilla Bean",
+    "hasChocolateChips": true,
+    "topping": "Cookie Dough"
+  },
+  {
+    "name": "Caramel Almond Brittle",
+    "base": "Vanilla Bean",
+    "hasChocolateChips": false,
+    "topping": "Almond Brittle"
+  },
+  {
+    "name": "Salted Caramel Cluster",
+    "base": "Salted Caramel",
+    "hasChocolateChips": false,
+    "topping": "Oat Cluster"
+  },
+  {
+    "name": "Mint Chocolate Chip",
+    "base": "Mint",
+    "hasChocolateChips": true,
+    "topping": "Fudge"
+  },
+  {
+    "name": "Cinnamon Buns",
+    "base": "Cinnamon",
+    "hasChocolateChips": false,
+    "topping": "Cinnamon Dough"
+  },
+  {
+    "name": "Pistachio Crunch",
+    "base": "Pistachio",
+    "hasChocolateChips": true,
+    "topping": "White Chocolate Chips"
+  },
+  {
+    "name": "Cookies and Cream",
+    "base": "Vanilla Bean",
+    "hasChocolateChips": false,
+    "topping": "Cookie Pieces"
+  },
+  {
+    "name": "Rocky Road",
+    "base": "Chocolate",
+    "hasChocolateChips": true,
+    "topping": "Nuts and Marshmallows"
+  },
+  {
+    "name": "Lemon Sorbet",
+    "base": "Lemon",
+    "hasChocolateChips": false,
+    "topping": "Fresh Mint Leaves"
+  },
+  {
+    "name": "Passion Fruit Sorbet",
+    "base": "Passion Fruit",
+    "hasChocolateChips": false,
+    "topping": "Orange Liqueur"
+  },
+  {
+    "name": "Salted Dark Chocolate",
+    "base": "Dark Chocolate",
+    "hasChocolateChips": true,
+    "topping": "Pretzel Pieces"
+  }
+]
