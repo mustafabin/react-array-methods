@@ -1,5 +1,20 @@
+import Flavor from "./Flavor.jsx";
+
 function Find(props) {
-  return null;
+  const { flavors } = props;
+  let sorbet = flavors.find((flavor) => {
+    if (flavor.name.includes("Sorbet")) {
+      return flavor;
+    }
+  });
+  return (
+    <div>
+      <h2>First Sorbet</h2>
+      <div className="flavors">
+        <Flavor flavor={sorbet} />
+      </div>
+    </div>
+  );
 }
 
 export default Find;

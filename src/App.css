@@ -1,13 +1,13 @@
 .App {
-  background-color: #FCF7F8;
+  background-color: #fcf7f8;
   min-height: 100vh;
 }
 
 h1 {
-  font-family: 'Pacifico', sans-serif;
+  font-family: "Pacifico", sans-serif;
   text-align: center;
   margin: 0 auto;
-  color: #5B616A;
+  color: #5b616a;
 }
 
 nav {
@@ -18,11 +18,11 @@ nav {
 }
 
 nav button {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin: 0px 4px;
-  background-color: #275DAD;
-  color: #FCF7F8;
-  border: #FCF7F8;
+  background-color: #275dad;
+  color: #fcf7f8;
+  border: #fcf7f8;
   padding: 4px 8px;
   border-radius: 6px;
 }
@@ -36,30 +36,30 @@ section {
 }
 
 h2 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-align: center;
-  color: #5B616A;
+  color: #5b616a;
 }
 
 .flavors {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 5px;
 }
 
 .flavor {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   width: 304px;
   padding: 4px;
   margin: 4px;
   box-sizing: border-box;
   text-align: center;
   border-radius: 6px;
-  border: 1px solid #5B616A;
-  color: #FCF7F8;
-  background-color: #275DAD;
-  box-shadow: 2px 2px 2px #7B818A;
+  border: 1px solid #5b616a;
+  color: #fcf7f8;
+  background-color: #275dad;
+  box-shadow: 2px 2px 2px #7b818a;
   transition: all 0.2s;
 }
 
@@ -73,9 +73,8 @@ h2 {
 
 @media screen and (max-width: 640px) {
   .flavors {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
   }
 
   .flavor {

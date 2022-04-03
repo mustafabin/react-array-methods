@@ -36,6 +36,7 @@ Currently, the `.flavors` div has Flexbox implemented on it. While it is respons
 ### Changing Flex to Grid
 
 On the `.flavors` div in `App.css`, remove the flex styling, and add the following:
+
 1. Give the `.flavors` div a `display` property of `grid`.
 2. Create 3 columns in this grid, of equal sizes (remember `fr`).
 3. Create a gap between each item of 5px (remember `grid-gap`).
@@ -52,4 +53,3 @@ The media query for our flavors div, unfortunately, also still uses flex.Let's c
 ### Reduce
 
 Open the `components` folder and open `Reduce.jsx`. Within this component, reduce the `flavors` array to a number—specifically the total number of flavors with chocolate chips. Take this number, and render how many flavors have chocolate chips.
-
